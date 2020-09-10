@@ -4,7 +4,7 @@ class Bob {
             isStatic: false,
             restitution: 1,
             friction: 0,
-            density: 1.5
+            density: 0.8
         }
         this.body = Bodies.circle(x, y, radius/2, options);
         this.radius = radius;
